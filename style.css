@@ -1,0 +1,35 @@
+.main{
+    width: 600px;
+    margin: 0 auto;
+}
+.mainPic{
+    width: 600px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
+.secondPics{
+    display: flex;    
+}
+.secondPics div{
+    width: 150px;
+}
+.secPic:hover{
+    opacity: .8;
+    transition: .4s;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.imgLent{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    transition: .4s;
+    right: 0px;
+}
+.imgLent div{
+    width: 600px;
+}
